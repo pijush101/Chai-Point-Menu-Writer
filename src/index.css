@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+/* Amazon Classic Grays & Off-Whites */
+.amazon-bg {
+  background-color: #EAEDED;
+}
+
+/* Amazon Yellow Button Shading */
+.amazon-btn-gold {
+  background: #FFD814;
+  border: 1px solid #FCD200;
+  box-shadow: 0 2px 5px 0 rgba(213,217,217,.5);
+}
+.amazon-btn-gold:hover {
+  background: #F7CA00;
+  border-color: #F2C200;
+}
+
+.amazon-btn-orange {
+  background: #FF9900;
+  border: 1px solid #FF8C00;
+  box-shadow: 0 2px 5px 0 rgba(213,217,217,.5);
+}
+.amazon-btn-orange:hover {
+  background: #DF7F00;
+}
